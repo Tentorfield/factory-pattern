@@ -1,5 +1,5 @@
 #include "Pow.hpp"
-#include "op.hpp"
+#include "Op.hpp"
 
 Pow::Pow( Base* left, Base* right){
 	this->left_val = left->evaluate();
