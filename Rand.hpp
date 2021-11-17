@@ -1,7 +1,7 @@
 #ifndef __RAND_HPP__ 
 #define __RAND_HPP__
 
-#include "base.hpp"
+#include "Base.hpp"
 #include <string>
 #include <iostream>
 

@@ -1,7 +1,7 @@
 #ifndef __MULT_HPP__
 #define __MULT_HPP__
 
-#include "op.hpp"
+#include "Op.hpp"
 #include <iostream>
 #include <string>
 

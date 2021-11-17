@@ -1,7 +1,7 @@
 #ifndef __DIV_HPP__
 #define __DIV_HPP__
 
-#include "op.hpp"
+#include "Op.hpp"
 #include <iostream>
 #include <string>
 
