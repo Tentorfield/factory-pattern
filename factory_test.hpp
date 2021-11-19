@@ -7,10 +7,12 @@ using namespace std;
 
 TEST(FactoryTest, EvaluateAddition){
 
-    char** expression[] = {"5 + 5"};
+    char* expression = "5+5";
+    char** expressionPtr = &expression;
     int length = 3;
 
-    Base* test = parse(expression, length); 
+    Factory* factory;
+    Base* test = factory->parse(expressionPtr, length); 
     EXPECT_EQ(test->evaluate(), 5);
 }
 #endif
