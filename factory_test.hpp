@@ -6,11 +6,14 @@
 using namespace std;
 
 TEST(FactoryTest, EvaluateAddition){
-
-    char** expression[] = {"5 + 5"};
+    string str = "5+5";
+    char* expression = new char[str.length() + 1];
+    strcpy(expression, str.c_str());
+    char** expressionPtr = &expression;
     int length = 3;
-
-    Base* test = parse(expression, length); 
+	
+	Factory fact;	//added
+    Base* test = fact.parse(expressionPtr, length); //added
     EXPECT_EQ(test->evaluate(), 5);
 }
 #endif
