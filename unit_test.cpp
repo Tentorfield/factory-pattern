@@ -1,5 +1,5 @@
 #include "gtest/gtest.h"
-#include "factory.cpp"
+#include "Factory.cpp"
 #include "factory_test.hpp"
 
 int main(int argc, char **argv) {
