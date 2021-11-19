@@ -1,5 +1,5 @@
-#ifndef FACTORY_HPP
-#define FACTORY_HPP
+#ifndef _FACTORY_HPP_
+#define _FACTORY_HPP_
 
 #include <iostream>
 #include <queue>
@@ -26,5 +26,7 @@ class Base;
 class Factory{
 	Factory(){ };
 	Base* parse(char** input, int length);
+
+	Base* newNode(char*);
 };
-#endif
+#endif //_FACTORY_HPP_
