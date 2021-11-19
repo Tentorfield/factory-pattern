@@ -24,6 +24,7 @@ using namespace std;
 class Base;
 
 class Factory{
+    public:
 	Factory(){ };
 	Base* parse(char** input, int length);
 
