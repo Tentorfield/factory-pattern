@@ -2,14 +2,15 @@
 #include <vector>
 #include <list>
 
-/*#include "Div.cpp"
+/*
+#include "Div.cpp"
 #include "Pow.cpp"
 #include "Sub.cpp"
 #include "Add.cpp"
 #include "Base.hpp"
 #include "Rand.cpp"
 #include "Op.cpp" */
-#include "Factory.cpp"
+#include "Factory.hpp"
 	
 using namespace std;
 
