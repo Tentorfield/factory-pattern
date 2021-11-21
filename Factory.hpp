@@ -21,13 +21,13 @@
 
 using namespace std;
 
-//class Base;
+class Base;
 
 class Factory{
 	public:
 	Factory(){ };
+	//~Factory() = default;
 	Base* parse(char** input, int length);
-
-	Base* newNode(char*);
+	//Base* newNode(char*);
 };
 #endif //_FACTORY_HPP_
